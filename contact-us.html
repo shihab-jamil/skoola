@@ -1,10 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Contact us</title>
 </head>
 <body>
 
+<!--Top information bar-->
+<div class="header-top">
+    <div class="container-xl container-fluid d-flex align-items-center justify-content-end justify-content-md-between">
+        <div class="d-flex align-items-center gap-3">
+            <div class="icon-text">
+                <iconify-icon icon="ion:call-outline" class="it-icon"></iconify-icon>
+                <span class="it-text pt-1">888 4000-2323</span>
+            </div>
+            <div class="icon-text">
+                <iconify-icon icon="ic:outline-email" class="it-icon"></iconify-icon>
+                <span class="it-text">support@yourdomain.tld</span>
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-2 d-none d-md-block">
+            <iconify-icon icon="iconoir:facebook" class="social-icon"></iconify-icon>
+            <iconify-icon icon="hugeicons:instagram" class="social-icon"></iconify-icon>
+            <iconify-icon icon="hugeicons:new-twitter" class="social-icon"></iconify-icon>
+            <iconify-icon icon="hugeicons:linkedin-02" class="social-icon"></iconify-icon>
+        </div>
+    </div>
+</div>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark nav-bg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Skoola</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto; gap: 15px">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="about-us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="staffs.html">Staffs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact-us.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--cover section-->
+<section>
+    <div class="img-container">
+        <img src="assets/images/stats.JPG" alt="" height="500px">
+        <div class="container-item-dark">
+            <div class="h-100 w-100 d-flex flex-column justify-content-center">
+                <div class="carousal-overlay w-100" style="align-items: center !important; " data-aos="fade-right">
+                    <h1>Contact us</h1>
+                    <p class="fs-5">Start the conversation to established good relationship and <business class=""></business></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact section-->
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12" data-aos="fade-up">
+                <div class="d-flex flex-column">
+                    <p class="text-primary fw-bold">GET IN TOUCH</p>
+                    <h1 class="fw-bold">Seamless Communication, Global Impact.</h1>
+                </div>
+            </div>
+            <div class="col-md-6 col-12" data-aos="fade-up">
+                <div class="d-flex flex-column">
+                    <p class="text-justify">Cras si quis potenti rutrum molestie fusce id erat. Lacus potenti neque malesuada dapibus scelerisque magna proin. Ultricies molestie vivamus mus amet netus pharetra proin vulputate.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 my-5">
+                <div class="c-card bg-surface" data-aos="fade-right" style="padding: 30px !important">
+                    <iconify-icon icon="hugeicons:office" class="tick-icon icon-xl"></iconify-icon>
+                    <h3 class="fw-bold">Head Office</h3>
+                    <span class="text-center">Jalan Cempaka Wangi No 22, Jakarta - Indonesia</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 my-5">
+                <div class="c-card bg-surface" data-aos="fade-up" style="padding: 30px !important">
+                    <iconify-icon icon="mage:email" class="tick-icon icon-xl"></iconify-icon>
+                    <h3 class="fw-bold">Email us</h3>
+                    <span class="text-center">support@yourdomain.tld <br>hello@yourdomain.tld</span>
+                    </div>
+            </div>
+            <div class="col-md-3 col-12 my-5">
+                <div class="c-card bg-surface" data-aos="fade-down" style="padding: 30px !important">
+                    <iconify-icon icon="fluent:call-add-20-regular" class="tick-icon icon-xl"></iconify-icon>
+                    <h3 class="fw-bold">Let's Talk</h3>
+                    <span class="text-center">Phone : +6221.2002.2012 <br>Fax : +6221.2002.2013</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 my-5">
+                <div class="c-card bg-surface" data-aos="fade-right" style="padding: 30px !important">
+                    <iconify-icon icon="pepicons-pop:rewind-time-circle" class="tick-icon icon-xl"></iconify-icon>
+                    <h3 class="fw-bold">Office Hours</h3>
+                    <span class="text-center">Monday - Friday <br> 07am - 09pm</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--contact form-->
+<section class="bg-surface p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 px-0">
+                <img src="assets/images/group_img_3.JPG" class="img-fluid w-100" alt="" data-aos="fade-right">
+            </div>
+            <div class="col-md-6 col-12 bg-card d-flex align-items-center">
+                <div class="c-form row align-items-center" data-aos="fade-left">
+                    <h1 class="fw-bold">Send us a message</h1>
+                    <p>Enim elementum sem posuere eleifend faucibus. Scelerisque massa vel ridiculus orci curabitur quis himenaeos.</p>
+                    <div class="col-md-6 col-12 mb-4">
+                        <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
+                    </div>
+                    <div class="col-md-6 col-12 mb-4">
+                        <input class="form-control" type="text" placeholder="Company" aria-label="default input example">
+                    </div>
+                    <div class="col-md-6 col-12 mb-4">
+                        <input class="form-control" type="text" placeholder="Phone" aria-label="default input example">
+                    </div>
+                    <div class="col-md-6 col-12 mb-4">
+                        <input class="form-control" type="text" placeholder="Email" aria-label="default input example">
+                    </div>
+                    <div class="col-12 mb-4">
+                        <input class="form-control" type="text" placeholder="Subject" aria-label="default input example">
+                    </div>
+                    <div class="col-12 mb-4">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button class="btn btn-primary w-100">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-5" data-aos="fade-up">
+            <div class="col-md-4 col-12">
+                <h3>Connect with <strong>social media</strong></h3>
+            </div>
+            <div class="col-md-4 col-12" >
+                <hr style="border: 1px solid red">
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="d-flex align-items-center justify-content-center gap-2">
+                    <iconify-icon icon="iconoir:facebook" class="icon-primary icon-lg bg-custom-primary text-white p-2 rounded-circle"></iconify-icon>
+                    <iconify-icon icon="hugeicons:instagram"  class="icon-primary icon-lg bg-custom-primary text-white p-2 rounded-circle"></iconify-icon>
+                    <iconify-icon icon="hugeicons:new-twitter"  class="icon-primary icon-lg bg-custom-primary text-white p-2 rounded-circle"></iconify-icon>
+                    <iconify-icon icon="hugeicons:linkedin-02"  class="icon-primary icon-lg bg-custom-primary text-white p-2 rounded-circle"></iconify-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--map section-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991444901209!2d2.289610390664026!3d48.85837352679888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sbd!4v1723798561664!5m2!1sen!2sbd" class="w-100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!--footer-->
+<footer >
+    <div class="cta ">
+        <div class="card" style="border-top: 5px solid var(--primary-color);">
+            <div class="row align-items-center  p-2 py-4 p-md-3 p-lg-5 mx-0 ">
+                <div class="col-md-6 col-12">
+                    <h4>Signup our newsletter to get update information, news, insight or promotions.</h4>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12 mb-3">
+                            <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <input class="form-control" type="text" placeholder="Email" aria-label="default input example">
+                        </div>
+                        <div class="col-12 mt-3">
+                            <button class="btn btn-primary w-100">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <div class="d-flex flex-column text-white mb-5">
+                    <h2>Skoola</h2>
+                    <p>Lacinia placerat inceptos aenean tortor dictum. Lorem eget a pulvinar rutrum placerat dis cras ultricies nisi.</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <iconify-icon icon="iconoir:facebook" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="hugeicons:instagram" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="hugeicons:new-twitter" class="social-icon"></iconify-icon>
+                        <iconify-icon icon="hugeicons:linkedin-02" class="social-icon"></iconify-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="d-flex flex-column gap-2 text-white">
+                    <h2 class="fw-bold">About Skoola</h2>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>About us</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Leadership</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Careers</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>News & articles</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Legal notice</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="d-flex flex-column gap-2 text-white">
+                    <h2 class="fw-bold">Helpful Links</h2>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Faculty</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Academics</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Admissions + Aid</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Campus Life</span>
+                    </div>
+                    <div class="quick-link">
+                        <iconify-icon icon="ci:arrow-right-sm" class="icon-primary"></iconify-icon>
+                        <span>Alumni</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="d-flex flex-column gap-2 text-white">
+                    <h2 class="fw-bold">Get in touch</h2>
+                    <p>Jalan Cempaka Wangi No 22 Jakarta - Indonesia</p>
+                    <div class="icon-text">
+                        <iconify-icon icon="ion:call-outline" class="it-icon"></iconify-icon>
+                        <span class="it-text pt-1">888 4000-2323</span>
+                    </div>
+                    <div class="icon-text">
+                        <iconify-icon icon="ic:outline-email" class="it-icon"></iconify-icon>
+                        <span class="it-text">support@yourdomain.tld</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4" style="border-bottom: 1px solid silver"></div>
+        <div class="row text-white pt-4 gap-2 gap-md-0">
+            <div class="col-md-6 col-12">Copyright © 2024 Skoola, All rights reserved. Powered by Techfy.</div>
+            <div class="col-md-6 col-12 d-flex gap-3 justify-content-md-end justify-content-center">
+                <p>Terms of services</p>
+                <p>Privacy policy</p>
+                <p>Cookie policy</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+    $('.counter').counterUp();
+    $(document).ready(function(){
+        $('.progress-value > span').each(function(){
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            },{
+                duration: 1500,
+                easing: 'swing',
+                step: function (now){
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+    });
+</script>
 </body>
 </html>
