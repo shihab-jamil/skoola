@@ -463,3 +463,19 @@ footer{
     font-size: 26px;
     cursor : pointer
 }
+
+.user-content {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+.icon-secondary{
+    color: silver;
+}
