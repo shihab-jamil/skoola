@@ -458,3 +458,8 @@ footer{
     margin-right: auto;
     width: 95%;
 }
+
+.icon-lg{
+    font-size: 26px;
+    cursor : pointer
+}
