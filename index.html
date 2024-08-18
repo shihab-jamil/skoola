@@ -47,8 +47,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">About us</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Academics
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="about-us.html">About us</a></li>
+                        <li><a class="dropdown-item" href="how-to-apply.html">How to apply</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="staffs.html">Staffs</a>
@@ -362,7 +368,7 @@
 <!--growth section-->
 <section class="growth-section py-5">
     <div class="container">
-        <div class="row py-5 align-items-center">
+        <div class="row py-5 align-items-center justify-content-center">
             <div class="col-md-6 col-12" data-aos="fade-right">
                 <div class="d-flex flex-column">
                     <p class="text-primary fw-bold">OVERVIEW</p>
@@ -832,23 +838,6 @@
 <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-    AOS.init();
-    $('.counter').counterUp();
-    $(document).ready(function(){
-        $('.progress-value > span').each(function(){
-            $(this).prop('Counter',0).animate({
-                Counter: $(this).text()
-            },{
-                duration: 1500,
-                easing: 'swing',
-                step: function (now){
-                    $(this).text(Math.ceil(now));
-                }
-            });
-        });
-    });
-</script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
