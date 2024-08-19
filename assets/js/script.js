@@ -15,3 +15,7 @@ $(document).ready(function(){
     });
 });
 
+var myCarousel = document.getElementById('carouselExampleFade');
+var carousel = new bootstrap.Carousel(myCarousel, {
+    pause: false
+});
